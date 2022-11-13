@@ -1,0 +1,308 @@
+/*sredniki i klamerki*/
+
+/*hero*/
+.hero {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    background-image: url("pexels-lisa-fotios-1083822.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu, .menu-item, .menu-link {
+    font-size: 18px;
+    color: beige;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-decoration: none
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-family: "'Grandstander'", cursive;
+    color: beige;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap:30px
+}
+
+.header-text {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Caveat';
+    color: beige;
+}
+
+.header-link {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Grandstander';
+    color: beige;
+}
+
+/*about*/
+.about-image-wrapper {
+    position: relative;
+    max-width: 400px;
+}
+
+@media (max-width: 960px) {
+    .about-image-wrapper {
+       max-width: 300px;
+    }
+}
+  
+.about-image-wrapper::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background: #063806;
+    border-radius: 8px;
+    z-index: -1;
+}
+  
+.about-image-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: #e3b4d2;
+    border-radius: 8px;
+    z-index: -1;
+}
+.section-about {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+@media (max-width: 960px) {
+    .section-about {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+.about-heading {
+    font-size: 25px;
+    color: darkorchid;
+    font-family: 'Caveat';
+}
+
+.about-image {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+
+.about-text {
+    font-size: 20px;
+    color: orchid;
+    font-family: 'Caveat';
+}
+
+/* hobby*/ 
+
+.hobby-name {
+    color:#629460;
+    font-size: 20px;
+    font-family: 'Caveat';
+}
+
+.hobby-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.hobby-item {
+    text-align: center;
+}
+
+.hobby-text {
+    color: #96BE8C;
+    font-size: 16px;
+    font-family: 'Caveat';
+}
+
+.hobby-icon {
+    border: 1px solid #629460;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-hobby {
+    background-color:#DDF8DC;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hobby-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby-heading {
+    color: #243119;
+    font-size: 25px;
+    font-family: 'Caveat';
+}
+
+/*photos*/
+
+.section-photos {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+  
+.photos {
+    margin-top: 50px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.photos-text {
+    font-size: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: orchid;
+    font-family: 'Caveat'; 
+}
+  
+.photos-heading {
+    font-size: 40px;
+    color: darkorchid;
+    font-family: 'Caveat';
+    text-align: center;
+}
+  
+.photos-description {
+    font-size: 20px;
+}
+  
+.figure {
+    max-width: 30%;
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.figure-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;    
+}
+  
+.figure-description {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(159, 128, 175);
+    font-family: 'Caveat';
+}
+
+/*quote*/
+
+.section-quote{
+    text-align: center;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.quote{
+    font-family: 'Grandstander';
+    font-size: 50px;
+}
+
+.quote-autor{
+    font-family: 'Caveat';
+    font-size: 20px;
+}
+
+/*text me*/
+
+.text-me-heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Caveat';
+    padding: 1px;
+}
+
+.text-me-form {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Caveat';
+    padding: 5px;
+}
+
+.text-me-submit {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat';
+    padding: 15px;
+}
+
+
+
+/* 
+button {
+  background-color: pink;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+*/
