@@ -12,8 +12,8 @@
     <meta name="author" content="Maja Programistka" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Grandstander:ital,wght@0,100;0,400;1,100;1,400&display=swap" rel="stylesheet">
-    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1" />
     <link rel="stylesheet" href="arkusz.css" />
     <script src="skrypt.js"></script>
     <link rel="stylesheet" href="styles.css" />
@@ -75,7 +75,38 @@
                             </path>
                         </svg> 
                     </a>
-          
+                    
+                    <button class="menu-button">
+                        <svg
+                          width="40px"
+                          viewBox="0 0 24 24"
+                          stroke="#000000"
+                          stroke-width="1"
+                          stroke-linecap="square"
+                          stroke-linejoin="miter"
+                          fill="none"
+                        >
+                          <path d="M6 7L18 7M6 12L18 12M6 17L18 17" />
+                        </svg>
+                      </button>
+            
+                      <button class="menu-close-button">
+                        <svg
+                          width="30px"
+                          viewBox="0 0 24 24"
+                          stroke="#000"
+                          stroke-width="1"
+                          stroke-linecap="square"
+                          stroke-linejoin="miter"
+                          fill="none"
+                        >
+                          <path
+                            d="M6.34314575 6.34314575L17.6568542 17.6568542M6.34314575 17.6568542L17.6568542 6.34314575"
+                          />
+                        </svg>
+                      </button>
+
+
                 <ul class="menu">
                   <li class="'menu-item">
                     <a class="menu-link" href="#about-me">o mnie</a>
@@ -94,7 +125,7 @@
 
               <header class="header">
                 <h1 class="main-heading">Bonjour!</h1>
-                <p class="header-text">Jestem <b>Maja</b>. Interesuję się zwierzętami, tematyką kryminalną i teatrem. Jestem w klasie maturalnej, na rozszerzeniu z wosu, geografii i francuskiego, ale przyszłość chciałabym wiązać z informatyką :).</p>
+                <p class="header-text">Jestem <b>Maja</b>. Interesuję się zwierzętami, tematyką kryminalną i teatrem. Jestem absolwentką liceum. Rozszerzałam wos, geografię i j. francuski. Przyszłość chciałabym wiązać z informatyką :).</p>
             <a class="header-link" href="#about-me">Poznaj mnie</a>
          </header> 
          </div> </div> </body>
@@ -102,19 +133,25 @@
 <!--about me-->
         <section class="section-about" id="about-me">
             <div class="about-image-wrapper">
-                <img class="about-image" width="200px" src="IMG_0972.JPG" alt="ja"> 
+                <img class="about-image" width="200px" src="ja_biznesowo.png" alt="ja"> 
             </div>
 
             <div> 
                 <h2 class="about-heading"> o mnie:</h2>
                 <p class="about-text">
-                    lorem ipsum dolor sit amet
+                    Jestem młodą osobą, która lubi odkrywać nieznane. 
+                    Chętnie podejmuję się nowych wyzwań, jakie stawia przede mną życie,
+                    a także tych które stawiam sama przed sobą!
                 </p>
                 <p class="about-text">
-                    lorem ipsum dolor sit amet
+                    Od października chcę zacząć studia informatyczne,
+                    na kierunku programowania aplikacji mobilnych lub stron internetowych.
                 </p>
                 <p class="about-text">
-                    lorem ipsum dolor sit amet
+                    Jestem osobą uczciwą, lojalną, punktualną,
+                    odpowiedzialną i otwartą na nowe wyzwania.
+                    Staram się wykonywać wszystkie wyznaczone zadania i cele ze 100% dokładnością i precyzją. 
+                    Cenię w ludziach prawdomówność, cierpliwość, troskliwość i szacunek do innych ludzi.
                 </p>
             </div>
         </section>
@@ -142,7 +179,7 @@
                         </svg> 
                     </a>
                 <h3 class="hobby-name"> zwierzęta</h3> 
-                <p class="hobby-text"> lubię zwierzęta </p>
+                <p class="hobby-text"> Odkąd pamiętam wychowywałam się wśród zwierząt. Razem z rodziną mieliśmy dwa psy, chomika, rybkę oraz 9 szczurów. </p>
                 </li>
 
             <li class="hobby-item">
@@ -164,7 +201,7 @@
                     </svg> 
                 </a>
                 <h3 class="hobby-name"> kryminologia</h3> 
-                <p class="hobby-text"> lubię kryminologię </p>
+                <p class="hobby-text"> W wolnych chwilach czytam książki kryminalne, horrory i thrillery psychologiczne. Choć to nietypowe zainteresowanie i mogę wydawać się przez nie niebezpieczna, to po prostu bardzo lubię psychologię jaka stoi za wyborami, które podejmuje w życiu człowiek. </p>
             </li>
 
             <li class="hobby-item">
@@ -191,7 +228,7 @@
                     </svg> 
                 </a>
                 <h3 class="hobby-name"> teatr</h3> 
-                <p class="hobby-text"> lubię teatr </p>
+                <p class="hobby-text"> Dłużej niż pamiętam kochałam teatr. W każdej wolnej chwili oglądam musicale (zarówno te filmowe, jak i w teatrach muzycznych), słucham płyt i podśpiewuję wszystkie piosenki które znam na pamięć. </p>
             </li>
 
             <li class="hobby-item">
@@ -213,70 +250,76 @@
                     </svg> 
                 </a>
                 <h3 class="hobby-name"> programowanie</h3> 
-                <p class="hobby-text"> no po coś to przecież robię </p>
+                <p class="hobby-text"> Zawsze interesowała mnie informatyka, jak funkcjonują komputery, telefony i właśnie z tym pragnę wiązać moją przyszłość. Dlatego właśnie - stworzyłam tę stronę :). </p>
             </li> </ul> </div>
         </section> 
-        <!--photos-->
+        
+        
+<!--photos-->
         <section class="container section-photos" id="photos">
             <h2 class="photos-heading">zdjęcia:</h2>
             <p class="photos-text">
-                tutaj znajdziesz parę zdjęć związanych z moimi zainteresowaniami
+                Tutaj znajdziesz parę zdjęć związanych z moimi zainteresowaniami, również tymi których nie wymieniłam wyżej:
+                (większość z nich zrobiłam sama!)
             </p>
 
+            <div class="div-image">
             <figure class="figure">
-                <img class="figure-image" src="zbalet.jpg"  alt=""> 
+                <img class="figure-image" src="1.jpg"  alt=""> 
                 <figcaption class="figure-description">
-            balet
+            bardzo lubię piec wszelkie słodkie wypieki
+            tort na zdjęciu jest tortem na 18 urodziny mojej przyjaciółki
                 </figcaption>
             </figure>
 
             <figure class="figure">  
-                <img class="figure-image" src="zmaska.jpg"  alt=""> 
+                <img class="figure-image" src="3.jpg"  alt=""> 
                 <figcaption class="figure-description">
-            maska
+            prof. Fiodor "Babol" Dostopsiejewski
                 </figcaption>
            </figure>
 
            <figure class="figure">
-                <img class="figure-image" src="zmaski.jpg"  alt=""> 
+                <img class="figure-image" src="5.jpg"  alt=""> 
                 <figcaption class="figure-description">
-            maski w teatrze
+            mój psiak :3
+                </figcaption>
+            </figure> </div>
+
+            <div class="div-image">
+                <figure class="figure">
+                <img class="figure-image" src="7.jpg"  alt=""> 
+                <figcaption class="figure-description">
+            w wolnych chwilach jeżdżę na rowerze, chodzę na długie spacery z psem lub gram w squasha
                 </figcaption>
             </figure>
 
             <figure class="figure">
-                <img class="figure-image" src="zszczur.jpg"  alt=""> 
+                <img class="figure-image" src="9.jpg"  alt=""> 
                 <figcaption class="figure-description">
-            szczur
+            Abra, mój szczur
                 </figcaption>
             </figure>
 
             <figure class="figure">
-                <img class="figure-image" src="zrece.jpg"  alt=""> 
+                <img class="figure-image" src="ja_fancy.png"  alt=""> 
                 <figcaption class="figure-description">
-            zakrwawione ręce
+            ja na spacerze z psem, tuż po zakończeniu szkoły średniej :) 
                 </figcaption>
-            </figure>
-
-            <figure class="figure">
-                <img class="figure-image" src="zteatr.jpg"  alt=""> 
-                <figcaption class="figure-description">
-            scena 
-                </figcaption>
-            </figure>
+            </figure> </div>
         </section>
 
         <!--quote-->
         <section class="section-quote"> 
             <figure>
                 <blockquote class="quote">
-                    <p>Kto umrze, to umrze i trudno.</p>
+                    <p>Jedynie dzieci wiedzą czego szukają – odparł Mały Książę. – Poświęcają czas lalce z gałganków, która nabiera dla nich wielkiego znaczenia i płaczą, gdy się im ją odbierze..</p>
                 </blockquote>
-                <figcaption class="quote-autor">-jakiś debil, <cite>jak zbłaźnić się będąc poliykiem</cite></figcaption>
+                <figcaption class="quote-autor">Antoine de Saint-Exupéry <cite>Mały Książe</cite></figcaption>
             </figure>
         </section>
-        <!--text me-->
-    <section class="text-me" id="text-me">
+      <!--text me-->
+    <!--<section class="text-me" id="text-me">
         <h2 class="text-me-heading"> Napisz do mnie</h2>
             <div class="text-me-form"><label for="E-mail"></label>
             <input placeholder="E-mail" type="text"> </div>
@@ -286,9 +329,9 @@
             <input placeholder="Wiadomość" type="text"></div>
             <div class="text-me-submit">
             <input type="submit" value="wyślij"> </div>
-    </section>
+    </section> -->
         <!--footer-->
-    <footer> 
+    <!--<footer> 
             <p>Maja Sluzala</p>
             <p>
                 <a href="mailto:majasluzala@gmail.com">
@@ -308,6 +351,6 @@
                 d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" 
             />
             </svg>
-    </footer>
+    </footer> -->
   </body>
 </html>
