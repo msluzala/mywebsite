@@ -302,11 +302,12 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
   
 .figure-image {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 12px;
     object-fit: cover;  
     justify-content: center;  
     cursor: pointer;
@@ -321,7 +322,7 @@
     margin-top: 10px;
     font-size: 16px;
     text-align: center;
-    color: rgb(159, 128, 175);
+    color: #012101;
     font-family: 'Caveat';
 }
 .div-image {
@@ -373,7 +374,14 @@
     padding: 15px;
 }
 
-
+.footer {
+    text-align: center;
+    font-size: 20px;
+    font-family: ;
+    font-style: initial;
+    padding: 15px;
+    color: black;
+}
 
 /* 
 button {
