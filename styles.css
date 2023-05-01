@@ -206,7 +206,7 @@
 /* hobby*/ 
 
 .hobby-name {
-    color:#629460;
+    color:#074e05;
     font-size: 20px;
     font-family: 'Caveat';
 }
@@ -224,13 +224,13 @@
 }
 
 .hobby-text {
-    color: #96BE8C;
+    color: #165606;
     font-size: 16px;
     font-family: 'Caveat';
 }
 
 .hobby-icon {
-    border: 1px solid #629460;
+    border: 1px solid #074e05;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -242,7 +242,7 @@
 }
 
 .section-hobby {
-    background-color:#DDF8DC;
+    background-color:#f2fff1;
     padding-top: 100px;
     padding-bottom: 100px;
 }
